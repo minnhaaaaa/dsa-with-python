@@ -16,7 +16,7 @@ def multiply_matrix(A,B):
     
     for i in range(m):						#m+1					#loops over rows of A
         for j in range(p):					#m(p+1)					#loops over columns of B
-            for k in range(n):				#m*p(n+1)					#loops over elements in row of A and column of B
+            for k in range(n):				#m*p(n+1)				#loops over elements in row of A and column of B
                 product[i][j]+= A[i][k] *B[k][j]
     print (product)
     #Time Complexity = m+1+m(p+1)+m*p(n+1)=n+1+n(n+1)+n^2(n+1)=n+1+n^2+n^3+n=O(n^3)
