@@ -3,6 +3,9 @@ Topic: Matrix Multiplication
 Based off: Abdul Bari- Frequency Count Method (Lecture on Youtube)
 Time Complexity: O(n^3) for Square Matrices
 Space Complexity: O(n^2) 
+What I learnt: 
+- Finding time and space complexity of any code or algorithm
+- Implementing matrix multiplication into python code
 '''
 
 def multiply_matrix(A,B):
@@ -17,4 +20,5 @@ def multiply_matrix(A,B):
                 product[i][j]+= A[i][k] *B[k][j]
     print (product)
     #Time Complexity = m+1+m(p+1)+m*p(n+1)=n+1+n(n+1)+n^2(n+1)=n+1+n^2+n^3+n=O(n^3)
+
 multiply_matrix([[1,2],[3,4]],[[6,8,10],[7,9,11]])				#example 
