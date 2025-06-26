@@ -25,6 +25,6 @@ def print_op(A):
 def count(n):
     count=0
     while n>0:
-        n=n//10									#Since we are using decimal number system, division is done by 10.If needed to find number of binary digits, division is done by 2 
+        n=n//10			#Since we are using decimal number system, division is done by 10.If needed to find number of binary digits, division is done by 2 
         count+=1
     print(count)    
